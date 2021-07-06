@@ -1,0 +1,76 @@
+body{
+    background: #202124;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+html{
+    height: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-items: right;
+}
+hd{
+
+}
+.icon{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: white;
+}
+main{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+.feet{
+    background: rgb(23,23,23);
+    color: rgba(255,255,255,.54);
+    padding: 0px;
+    margin: 0;
+}
+/*.feet{  
+    height: 40px;
+    background: rgb(23,23,23);
+    color: rgba(255,255,255,.54);
+    padding: 5px;
+}*/
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+#Lit{
+    text-align:start;
+    /*padding-top: 20px;*/
+    padding: 16px;
+}
+.foot-1{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+
+}
+.foot-2{
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    /*padding: 20px;*/
+    text-align: center;
+    padding: 16px;
+}       
